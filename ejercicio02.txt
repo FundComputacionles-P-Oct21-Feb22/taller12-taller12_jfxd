@@ -1,14 +1,15 @@
 1. Inicio
 2.Funcion Principal
 3.tipo, i[i-n]
-4.Escriba "Escriba 1 para para ingresar autos
+4.String mensaje,(100)[(A-Z),(a-z),(BS)]
+5.Escriba "Escriba 1 para para ingresar autos
 	   Escriba 2 para ingresar motos"
-5.Lea tipo
-6.Si(tipo<--1) entonces
-7.	mensaje<--ingresarAutos()
-8.		Si(tipo<--2) entonces
-9.			mensaje<--ingresarMotos()
-10.Fin si
+6.Lea tipo
+7.Si(tipo<--1) entonces
+8.	mensaje<--ingresarAutos()
+9.		Si(tipo<--2) entonces
+10.			mensaje<--ingresarMotos()
+11.Fin si
 12.Escriba mensaje
 13.Fin Funcion principal
 
