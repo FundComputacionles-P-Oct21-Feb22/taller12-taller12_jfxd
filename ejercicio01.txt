@@ -1,0 +1,16 @@
+// Solución ejercicio 1
+1.Inicio
+2.FuncionPrincipal()
+3.arreglo1(4), i[0-n] <-- {1, 2, 5, 6}
+4.arreglo2(4), i[0-n] <-- {9, 8, 7, 1}
+5.arreglo3(4), i[0-n] <-- {10, 18, 17, 10}
+6.para(int i <-- 0; i<4; i++) haga
+7.generarInfo(arreglo1[i], arreglo2[i], arreglo3[i])
+8.fin Para
+9.Fin funcionPrincipal
+10.Funcion generarInfo(a, i; b, i; c,i)
+11.m, i[0-n]
+12.m <-- (a*2 + b * 2) + a*c
+13.Escribir "El valor de m es " + m +" y los valores usados para la operación son los siguientes: " + a + ", " + b + ", " + c
+14. Fin Funcion generarInfo
+15. Fin
