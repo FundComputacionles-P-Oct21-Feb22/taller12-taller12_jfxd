@@ -1,0 +1,45 @@
+1. Inicio
+2.Funcion Principal
+3.tipo, i[i-n]
+4.String mensaje,(100)[(A-Z),(a-z),(BS)]
+5.Escriba "Escriba 1 para para ingresar autos
+	   Escriba 2 para ingresar motos"
+6.Lea tipo
+7.Si(tipo<--1) entonces
+8.	mensaje<--ingresarAutos()
+9.		Si(tipo<--2) entonces
+10.			mensaje<--ingresarMotos()
+11.Fin si
+12.Escriba mensaje
+13.Fin Funcion principal
+
+14.funcion ingresarAutos() : String
+15.String cadena,(100)[(A-Z),(a-z),(BS)]
+16.String marca,(100)[(A-Z),(a-z),(BS)]
+17.añoFabricacion, i[0-n]
+
+18.Escriba"Ingrese la marca del vehiculo"
+19.Lea marca
+
+20.Escriba "Ingrese el año de fabricacion del vehiculo"
+21.Lea añoFabricacion
+
+22.cadena<--"Auto marca " + marca + "con año de fabricacion " + añoFabricacion
+23.return cadena
+24.Fin funcion ingresarAutos
+
+25.funcion ingresarMotos() : String
+26.String cadena,(100)[(A-Z),(a-z),(BS)]
+27.String motor,(100)[(A-Z),(a-z),(BS)]
+28.asientos, i[0-n]
+
+29.Escriba"El motor de esta moto es a"
+30.Lea motor
+
+31.Escriba "Ingrese los asientos de esta moto"
+32.Lea asientos
+
+33.cadena<--"Moto con motor a " + motor + "y " + asientos + "asientos"
+34.return cadena
+35.Fin cfuncion ingresarMotos
+36.Fin
